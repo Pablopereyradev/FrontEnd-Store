@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="icon" href="img/icon.webp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>ReactJS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagn del producto">
+            <div class="camisa__contenido">
+                <p>Expresa tu pasión por la programación con estilo. Nuestra camiseta ReactJS es un tributo a este potente marco de JavaScript. Con un diseño elegante y el icónico logotipo de React, esta camiseta no solo muestra tu devoción por la codificación, sino que también se siente cómoda gracias a su tela suave y duradera. Ya sea que estés trabajando en proyectos de React o simplemente amando su versatilidad, esta camiseta es la elección perfecta para devs con estilo. Haz una declaración audaz en tu código y tu vestuario con la camiseta ReactJS de Frontend Store.</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos lo derechos Reservados 2022.</p>
+    </footer>
+
+</body>
+
+</html>
